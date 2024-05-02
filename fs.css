@@ -1,0 +1,108 @@
+htnl{
+    font-family:'Times New Roman', Times, serif,sans-serif ;
+}
+
+body{
+    /* background:linear-gradient(to top, #00ccff,#98b418c9);
+    background-image: url("1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover; */
+  /* text-align: center; */
+    background-color: #444;
+} 
+h1 ,h2,h3,.class,#id{
+    color:rgba(229, 255, 0, 0.74);
+    text-align: center;
+    font-family: 'eg google font',sefri;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(20, 209, 184);
+    margin: auto;
+}
+#circle{
+    color: black;
+    font-size: 40px;
+}
+ .container{
+    background-color: dimgray;
+    box-shadow: 2px 2px black;
+ }
+ h3{
+    color:rgba(227, 222, 231, 0.89);
+    text-shadow: 2px 2px rgb(27, 17, 1);}
+.borderimage{
+   border-radius:10px;
+   width:200px;
+   height:200px;
+   border:2px solid  #c2f313a2;
+   padding:5px;
+}
+button{
+    color:palevioletred;
+    background: black;
+    border-radius:12px;
+    border:none;
+    font-size: 25px;
+    padding: 10px 20px 40px;
+}
+img{
+    max-width:100%;
+    height:auto;
+    padding:5px;
+    opacity:0.8;
+     display:block;
+    margin:auto; 
+   
+}
+ul{
+    color:indianred;
+    font-size: 25px;
+}
+ul>li{
+    color:blue
+}
+a{
+    text-decoration:none;
+    font-size: 20px;
+    color:yellow;
+    word-spacing: 10px;
+    text-transform: uppercase;
+
+}
+.row{
+    display:flex;
+    width:100%;
+
+}
+.row::after{
+    display:block;
+    clear:both;
+    content:"";
+    
+}
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+*{
+    box-sizing:border-box;
+}
+[class*="col-"]{
+    border:2px solid red;
+    padding:15px;
+    float:left;
+}
+
+
+/* https://www.msn.com/en-xl/news/other/one-of-the-world-s-top-universities-releases-free-online-courses-which-anyone-can-do/ar-BB1ikvSL?ocid=socialshare */
